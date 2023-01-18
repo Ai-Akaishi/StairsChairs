@@ -1,0 +1,17 @@
+{
+	"criteria": {
+		"sitting": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"vehicle": {
+						"type": "minecraft:area_effect_cloud"
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "stairs_chairs:on_sitting"
+	}
+}

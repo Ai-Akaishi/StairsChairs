@@ -1,0 +1,17 @@
+{
+	"criteria": {
+		"sitting": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"flags": {
+						"is_sneaking": true
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "stairs_chairs:try_sitting"
+	}
+}
